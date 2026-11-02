@@ -57,3 +57,8 @@ jobs:
       # - name: Deployment Health Check
       #   run: |
       #     echo "Deployment completed. Verify at your S3 website URL"
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./app
