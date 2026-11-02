@@ -1,0 +1,30 @@
+🚀 Module 06 Completed - AWS DevOps & CI/CD | Day 25-27
+
+From writing code to automating its journey to the cloud - this module was a game changer!
+
+🔑 What I Built & Learned:
+
+✅ Git & GitHub Fundamentals - Branching strategies, PR workflow, conventional commits
+✅ Version Control in Action - Why every commit tells a story
+✅ CI/CD Concepts - How Continuous Integration catches bugs early & Continuous Deployment ships faster
+✅ AWS CI/CD Stack - Explored CodeCommit, CodeBuild, CodeDeploy, CodePipeline and implemented modern alternative with GitHub Actions + S3 + CloudFront
+✅ Live Pipeline - Push to main -> Auto Build & Test -> Auto Deploy to AWS S3 -> CloudFront Invalidation -> Live Website in <3 mins
+
+🛠️ My Pipeline Flow:
+GitHub (Source) -> GitHub Actions (CI: Build/Test) -> AWS S3 (CD: Deploy) -> CloudFront CDN -> Live
+
+🔒 Best Practices Followed:
+- No hardcoded secrets, used GitHub Secrets + IAM Least Privilege
+- Fail-fast pipeline, health checks, rollback plan with S3 versioning
+- Documented complete deployment workflow
+
+The real win? Understanding that DevOps is not just tools, it's culture - Automate, Monitor, Repeat.
+
+📂 GitHub Repo + Detailed Documentation: [Your GitHub Link Here]
+📝 Full Learning Notes & Workflow Doc included
+
+Next: Final AWS Cloud Deployment Project - Module 07!
+
+#AWS #DevOps #CICD #GitHubActions #AWSS3 #CloudComputing #ATS #LearningInPublic #DevOpsEngineer
+
+Milestone Reward Unlocked: Exclusive ATS Resume Templates! 🔓

@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+  build:
+    commands:
+      - echo Building...
+      - mkdir -p dist && cp -r app/* dist/
+artifacts:
+  files:
+    - '**/*'
+  base-directory: dist
